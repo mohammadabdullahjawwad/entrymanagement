@@ -1,0 +1,38 @@
+<%- include('partials/header') -%>
+
+
+<header class="jumbotron">
+    <div class="container" style="text-align: center">
+        <h1>Welcome To Google</h1>
+        <p> You are most Welcome!!! </p>
+    </div>
+</header>
+
+<% if(!currentUser) { %>
+    <form action="/login" method="POST" style="text-align: center;">
+        <h3>Host Login</h3>
+        <div class="form-group">
+            <label for="username">Username :</label>
+            <input type="text" id="username" name="username" placeholder="Userame" class="required">
+        </div>
+        <div class="form-group">
+            <label for="password">Password :</label>
+            <input type="password" id="password" name="password" placeholder="Password" class="required">
+        </div>
+        <div class="form-group">
+            <button value="login" class="btn btn-default" >Login</button>
+        </div>
+    </form>
+
+    <form class="form-inline">
+        New Host? 
+        <a href="/register" class="btn btn-default">Sign Up</a>
+    </form>
+
+<% } else { %>
+    <div style="text-align: center">
+        <a href="/visitors" class="btn btn-xl btn-warning">View All Visitors</a>
+    </div>
+<% } %>
+
+<%- include('partials/footer') -%>

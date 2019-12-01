@@ -1,0 +1,27 @@
+<%- include('partials/header') -%>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+        <h1>Goodbye <%= visitor.name %>!</h1>
+        <h3>Tell us what you think! We need your valuable feedback.</h3>
+    </div>
+</div>
+
+<div class="col-md-9">
+    <div class="thumbnail">
+        <img src="https://as2.ftcdn.net/jpg/02/38/20/65/500_F_238206524_XNjJzvP9SZpT3cNTyaF0nvH2ZxxnyMZM.jpg">
+        <br>
+    </div>
+    <h1>
+        Thanks for Visiting. It was a pleasure serving you. Hope to see you again!
+    </h1>
+    <form action="/visitors/<%= visitor._id %>" method="POST">
+        <button class="btn btn-md btn-primary" style="text-align: center;"> Submit </button>
+    </form>
+</div>
+<div style="text-align: center">
+    <a href="/visitors">Go Back</a>
+</div>
+
+<%- include('partials/footer') -%>
