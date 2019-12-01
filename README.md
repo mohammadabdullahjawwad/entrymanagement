@@ -4,24 +4,36 @@ A webapp used to manage the Incoming and Outgoing of Guests at a hotel, office o
 **Nodemailer module is used for scheduling of mails.**
 **Nexmo API is used for scheduling SMS.**
 
+
+
 # Site
 
+
 # Landing Page
-![](Screenshots/Screenshot%20from%202019-12-01%2021-43-14.png)
+
 Home Page of the WebApp. Host login form is present here.
+![](Screenshots/Screenshot%20from%202019-12-01%2021-43-14.png)
+
 
 # Host Registration
-![](Screenshots/Screenshot%20from%202019-12-01%2021-43-18.png)
+
 A Sign Up form to add new Host to DB
+![](Screenshots/Screenshot%20from%202019-12-01%2021-43-18.png)
+
 
 # Vitor Homepage
-![](Screenshots/Screenshot%20from%202019-12-01%2021-48-36.png)
+
 This page shows all Visitors presently Checked In
+![](Screenshots/Screenshot%20from%202019-12-01%2021-48-36.png)
+
 
 # Visitor Check In Form
-![](Screenshots/Screenshot%20from%202019-12-01%2021-48-43.png)
+
 This page adds a new Visitor to DB
+![](Screenshots/Screenshot%20from%202019-12-01%2021-48-43.png)
+
 
 # Check Out Page Of Visitor
-![](Screenshots/Screenshot%20from%202019-12-02%2000-08-50.png)
+
 This page checks out the visitor selected
+![](Screenshots/Screenshot%20from%202019-12-02%2000-08-50.png)
