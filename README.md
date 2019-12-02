@@ -54,6 +54,7 @@ To fix a bug or enhance an existing module, follow these steps:
 # Built-with
 * [Node-js](https://nodejs.org/en/docs/)  - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 * [Npm](https://docs.npmjs.com/)  -   Npm is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js.
+* [Nodemailer](https://www.npmjs.com/package/nodemailer)  - Npm package to send emails
 * [Nexmo](https://www.nexmo.com/)  - An API programmatically send and receive SMS in practically every country.
 * [Bootstrap](https://getbootstrap.com/docs/3.3/)  - A free and open-source CSS framework directed at responsive, mobile-first front-end web development.Used for styling forms 
 
