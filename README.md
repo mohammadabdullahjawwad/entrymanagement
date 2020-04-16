@@ -21,7 +21,7 @@ A Sign Up form to add new Host to DB
 ![](Screenshots/Screenshot%20from%202019-12-01%2021-43-18.png)
 
 
-# Vitor Homepage
+# Visitor Homepage
 
 This page shows all Visitors presently Checked In
 ![](Screenshots/Screenshot%20from%202019-12-01%2021-48-36.png)
