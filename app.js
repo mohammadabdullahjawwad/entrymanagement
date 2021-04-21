@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(methodOverride("_method"));
 app.use(express.urlencoded({extended: true}));
 
-require('dotenv').config(); // For storing the email and password of the 
+require('dotenv').config(); // For storing the environment variables (email and password of the user)
 
 // Local Time that has to be displayed
 var indiaTime = new Date().toLocaleString("en-US", {timeZone: "Asia/Kolkata"});
